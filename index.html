@@ -17,7 +17,7 @@
 <body>
 <div class="background">
     <!--nav bar -->
-<nav class="navbar navbar-expand-md navbar-dark">
+<nav class="navbar fixed-top navbar-expand-md navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Courtney Sands</a>
         <button 
@@ -33,7 +33,7 @@
         <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
                 <ul class="navbar-nav nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                        <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Projects</a>
@@ -45,6 +45,7 @@
         </div>
     </div>
 </nav>
+<!-- main -->
 <div class="container main-container">
     <article class="heading-container">
     <div class="d-flex justify-content-center">
@@ -64,9 +65,45 @@
         <i class="fa-solid fa-arrow-down-long fa-5x"></i>
     </div>
 </div>
-
-
-
+<!-- about me -->
+<article class="about">
+    <div class="d-flex justify-content-center">
+        <h1 class="about-heading" id="about-me">Get to know me!</h1>
+        <i class="fa-solid fa-face-smile-beam fa-5x"></i>   
+    </div>
+<div class="container-fluid d-flex flex-wrap justify-content-lg-around justify-content-md-between justify-content-center">
+    <div class="card about-card" style="width: 18rem;">
+        <div class="card-body">
+        <h5 class="card-title about-card-title">Education</h5>
+            <div class="about-info">
+                <p class="card-text about-info">Graduated from West Virginia University in 2018 with a Bachelor's degree in Business Administration with a major in Finance. 
+                </p>
+                <p>Completed 56 hour Front-End Development course from TeamTreehouse.</p>
+                <p>Completed 30 hour modern Java-Script Bootcamp from Udemy.</p>
+                <p>Completed 50 hour React course from Udemy.</p>
+            </div>
+        </div>
+    </div>
+    <div class="card about-card" style="width: 18rem;">
+        <div class="card-body ">
+            <h5 class="card-title about-card-title">Developer Skills</h5>
+            <div class="about-info">
+                <p class="card-text ">HTML <br> CSS <br> Bootstrap <br> React <br> Git</p>
+                <p>Currently learning Redux</p>
+            </div>
+        </div>
+    </div>
+    <div class="card about-card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title about-card-title">Other Skills</h5>
+            <p class="card-text about-info ">Communication <br> Decision making <br> Creative problem solving <br> Self-motivated <br> Fast Learner with a drive to learn more<br> Multitasking<br> Collaboration</p>
+        </div>
+    </div>
+</div>
+</article>
+<div class="d-flex justify-content-center">
+    <i class="fa-solid fa-arrow-down-long fa-3x about-arrow"></i>
+</div>
 
 </div>
 

@@ -5,23 +5,27 @@
 }
 
 .background {
-    background-image: linear-gradient(to right, #DEAAFF, #D8BBFF, #D0D1FF) ;
+    background-image: linear-gradient(to right, #DEAAFF, #D8BBFF, #D0D1FF);
 }
 
 /*Navbar styles*/
-.navbar-brand {
-    font-size: 30px;
+.navbar {
+    background-image: linear-gradient(to right, #DEAAFF, #D8BBFF, #D0D1FF);
 }
 
 .nav-item {
     font-size: 20px;
 }
 
+.nav-item:hover {
+    text-decoration: underline;
+}
+
 /* main styles */
 .main-container {
     height: 100vh;
     color: white; 
-    margin-top: 50px;
+    padding-top: 60px;
 }
 
 .heading-container {
@@ -35,6 +39,66 @@
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
     margin-bottom: 50px;
 }
+
+/* about styles */
+
+.about-heading {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 70px; 
+    margin-right: 10px;  
+}
+.fa-face-smile-beam {
+    color: white;
+}
+
+.about-card {
+    margin-bottom: 15px;
+}
+
+.about-card:hover {
+    box-shadow: 0 3px 10px rgba(42, 2, 69, 0.9);
+}
+
+.about-card-title {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #2A0245;
+    margin-bottom: 15px;
+}
+
+.about-info {
+    text-align: center;
+    color: #2A0245;
+    
+}
+
+.about-arrow {
+    color: white;
+    margin-bottom: 10px;
+}
+
+@media  (max-width: 680px) {
+    .about-heading{
+        font-size: 40px;
+    } 
+    .fa-face-smile-beam {
+        display: none;
+    }
+   
+}
+
+@media (min-height: 1000px ) {
+    .main-container {
+        height: 700px;
+    }
+}
+
+
+
+
+
 
 
 
