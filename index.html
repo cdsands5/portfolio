@@ -36,10 +36,10 @@
                         <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Projects</a>
+                        <a class="nav-link active" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Contact</a>
+                        <a class="nav-link active" href="#contact">Contact</a>
                     </li>  
                  </ul> 
         </div>
@@ -52,7 +52,7 @@
         <img src="/images/me.jpg" alt="A photo of Courtney Sands" class="photo align-self-center">
     </div>
         <div class="d-flex justify-content-center ">
-            <h3>Hi! I'm Courtney!</h3>
+            <h3 >Hi! I'm Courtney!</h3>
         </div>
         <div class="d-flex justify-content-center">
             <h1>Front-End Developer</h1>
@@ -66,12 +66,12 @@
     </div>
 </div>
 <!-- about me -->
-<article class="about">
-    <div class="d-flex justify-content-center">
-        <h1 class="about-heading" id="about-me">Get to know me!</h1>
-        <i class="fa-solid fa-face-smile-beam fa-5x"></i>   
+<article class="about" >
+    <div class="d-flex justify-content-center" id="about-me">
+        <h1 class="about-heading">Get to Know Me</h1>
+        <i class="fa-solid fa-face-smile-beam fa-5x icon"></i>   
     </div>
-<div class="container-fluid d-flex flex-wrap justify-content-lg-around justify-content-md-between justify-content-center">
+<div class="container-fluid d-flex flex-wrap justify-content-lg-around justify-content-center">
     <div class="card about-card" style="width: 18rem;">
         <div class="card-body">
         <h5 class="card-title about-card-title">Education</h5>
@@ -89,7 +89,7 @@
             <h5 class="card-title about-card-title">Developer Skills</h5>
             <div class="about-info">
                 <p class="card-text ">HTML <br> CSS <br> Bootstrap <br> React <br> Git</p>
-                <p>Currently learning Redux</p>
+                <!-- <p>Currently learning</p> -->
             </div>
         </div>
     </div>
@@ -105,9 +105,83 @@
     <i class="fa-solid fa-arrow-down-long fa-3x about-arrow"></i>
 </div>
 
-</div>
+<!-- projects -->
+<article id="projects">
+    <div class="d-flex flex-wrap justify-content-center">
+        <h1 class="project-heading" id="projects">Projects I've Built</h1>
+        <i class="fa-solid fa-code fa-5x icon"></i>   
+    </div>
+<div class="container-fluid d-flex flex-wrap justify-content-lg-around justify-content-center">
+    <div class="card project-card" style="width: 25rem;">
+        <a href="https://sandshangman.netlify.app/" target="blank">
+            <img src="/images/hangman.jpg" class="card-img-top project" alt="image of cocktails app">
+        </a> 
+    </div>
+        <div class="card project-card" style="width: 25rem;">
+            <a href="https://sands-cocktail.netlify.app/" target="blank">
+                <img src="/images/cocktails.jpg" class="card-img-top project" alt="image of cocktails app">
+            </a>
+        </div>
+        <div class="card project-card" style="width: 25rem;">
+            <a href="https://sands-todoapp.netlify.app/" target="blank">
+                <img src="/images/todo.jpg" class="card-img-top project" alt="image of cocktails app">
+            </a>
+        </div>
+    </div>
+    <div class="git-info container-fluid">
+        <div class="d-flex container-fluid flex-wrap justify-content-center">
+            <h3 class="more">Want to know more?</h3>
+        </div>
+        <div class="d-flex container-fluid justify-content-center">
+            <h4>Visit my <a href="https://github.com/cdsands5" target="blank" class="github">github</a></h4>
+        </div> 
+        <div class="d-flex justify-content-center">
+            <i class="fa-solid fa-arrow-down-long fa-4x git-arrow"></i>
+        </div>
+    </div>
+</article>
 
+<!-- contact me -->
+<article class="contact" id="contact">
+    <div class="contact-container">
+        <div class="d-flex justify-content-center ">
+            <h1 class="contact-heading">Let's Work Together!</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <form action="/contact.html">
+                <button class="contact-btn" type="submit" value="Go to Contact Page">
+                    contact me
+                </button>
+            </form>
+           
+    </div>
+    </div>
+</article>
+
+<footer>
+    <div class="container-fluid d-flex flex-wrap justify-content-md-around justify-content-center footer">
+        <div>
+            <p class="footer-description justify-content-center">©2022 Courtney Sands</p>
+        </div>
+
+            <div>
+                <p class="footer-description justify-content-center">Front-End Developer</p>
+            </div>
+
+            <div class="contact-links">
+                <a href="" target="_blank"
+                    class="footer-description justify-content-end contact-link">Github</a>
+                <a href="mailto:cdsands5@gmail.com" class="footer-description contact-link ">Email</a>
+                <a href="" target="_blank"
+                    class="footer-description contact-link ">LinkedIn</a>
+            </div>
+
+    </div>
+</footer>
+
+</div>
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>

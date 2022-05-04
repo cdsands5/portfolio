@@ -35,10 +35,17 @@
 .photo {
     border-radius: 20%;
     height: 300px;
-    border: 2px, black, solid;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    box-shadow:0 3px 10px rgba(42, 2, 69, 0.9);
     margin-bottom: 50px;
 }
+
+.icon {
+    color: white;
+    margin-left: 15px;
+    padding-top: 65px;
+}
+
+
 
 /* about styles */
 
@@ -46,11 +53,9 @@
     color: white;
     margin-bottom: 50px;
     font-size: 70px; 
-    margin-right: 10px;  
+    padding-top: 65px;  
 }
-.fa-face-smile-beam {
-    color: white;
-}
+
 
 .about-card {
     margin-bottom: 15px;
@@ -76,14 +81,115 @@
 
 .about-arrow {
     color: white;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+/* project styles */
+
+.project-heading {
+    padding-top: 65px;
+    color: white;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+
+
+.project-card {
+    margin-bottom: 50px;
+}
+  .project, .project-card {
+    border-radius: 5%;
+}
+
+.project-card:hover {
+    transform: perspective(800px) rotateY(-8deg) translateY(-20px) rotateX(10deg) scale(1);
+    filter: blur(0);
+    opacity: 1;
+}
+
+.github {
+    color:#2A0245;
+    text-decoration: none;
+}
+
+.github:hover {
+    color: white;
+}
+
+.git-info {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.more {
+    font-size: 50px;
+}
+
+/* contact styles */
+.contact {
+    height: 100vh;
+    padding-top: 60px;
+    color: white;
+}
+
+.contact-container {
+    margin-top: 10rem;
+}
+
+.contact-heading {
+    font-size: 80px;
+}
+
+.contact-btn {
+    font-size: 30px;
+    color: white;
+    border-radius: 45px;
+    background: transparent;
+    margin: 2rem;
+    padding: 2rem;
+    border: none;
+    box-shadow: 0 2px 10px rgba(42, 2, 69, 0.9);
+}
+
+.contact-btn:hover {
+    background: #DEAAFF;
+    box-shadow: 0 8px 30px rgba(42, 2, 69, 0.9);
+
+}
+
+/* footer */
+.footer {
+    border-top: solid 3px #DEAAFF;
+    box-shadow: 0 2px 10px rgba(42, 2, 69, 0.9);
+}
+
+.footer-description {
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+.contact-links {
+    margin-top: 20px;
+}
+
+.contact-link:hover {
+    color:rgba(42, 2, 69, 0.9);
+}
+
+.contact-link {
+    margin-left: 5px;
+}
+
+/* media queries */
+
 @media  (max-width: 680px) {
-    .about-heading{
+    .about-heading, .project-heading, .more, .contact-heading{
         font-size: 40px;
     } 
-    .fa-face-smile-beam {
+    .icon {
         display: none;
     }
    
@@ -94,6 +200,8 @@
         height: 700px;
     }
 }
+
+
 
 
 
