@@ -130,8 +130,8 @@
 /* contact styles */
 .contact {
     height: 80vh;
-    padding-top: 20px;
-    color: white;
+    padding-top: 10px;
+    color:white;
 }
 
 .contact-container {
@@ -158,6 +158,56 @@
     box-shadow: 0 8px 30px rgba(42, 2, 69, 0.9);
 
 }
+
+/* contact page */
+.contact-page-container {
+    height: 100vh;
+    padding-top: 30px;
+}
+.contact-card {
+    padding-top: 40px;
+    
+}
+
+.contact-card-info {
+    padding: 50px; 
+    background:rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 12%);
+    color: rgba(42, 2, 69, 0.9)
+}
+
+.me-icon {
+   max-width: 300px;
+   max-height: 350px;
+}
+
+.contact-icon {
+    color: rgba(42, 2, 69, 0.9);
+    margin-right: 15px;
+}
+
+.contact-page-info {
+    font-size: 26px;
+}
+
+.contact-page-subinfo {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.link {
+    color: rgba(42, 2, 69, 0.9);
+    text-decoration: none;
+}
+
+.link:hover {
+    color:white;
+}
+
+
+
+ 
+
 
 /* footer */
 .footer {
