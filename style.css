@@ -208,9 +208,6 @@
 
 
 
- 
-
-
 /* footer */
 .footer {
     border-top: solid 3px #DEAAFF;
@@ -244,12 +241,30 @@
     .icon {
         display: none;
     }
-   
+}
+
+@media (max-width: 650px) {
+    .contact-page-info,
+    .contact-page-subinfo {
+        font-size: 14px;
+    }
+    .contact-page-subinfo {
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 820px) {
+    .contact-card {
+        padding-top: 5rem;
+    }
 }
 
 @media (min-height: 1000px ) {
     .main-container {
         height: 700px;
+    }
+    .contact-card {
+        padding-top: 15rem;
     }
 }
 
