@@ -125,6 +125,7 @@
 
 .more {
     font-size: 50px;
+    text-align: center;
 }
 
 /* contact styles */
@@ -140,6 +141,7 @@
 
 .contact-heading {
     font-size: 80px;
+    text-align: center;
 }
 
 .contact-btn {
